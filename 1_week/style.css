@@ -9,19 +9,13 @@ li {
   list-style-type:none;
 }
 
-.col-12 {
-  width: 100%;
-  height: 100%;
-}
 
 .container {
   max-width:1200px;
   height: auto;
-}
-
-.align--center {
   margin: 0 auto;
 }
+
 
 .block__title {
   font-size: 32px;
@@ -129,6 +123,7 @@ li {
   font-size: 20px;
   width: 57%;
   font-weight: normal;
+  line-height:1.5;
 }
 .list__li--height {
   line-height: 35px;
@@ -173,7 +168,6 @@ li {
 
 .jumbotron {
   max-width: 1200px;
-  height:100%;
   padding: 24px 8.5% 56px 8.5%;
   margin: 0 auto;
   background: #415165 0% 0% no-repeat padding-box;
